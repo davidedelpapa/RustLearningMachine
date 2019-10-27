@@ -1,0 +1,21 @@
+[package]
+name = "RustLearningMachine"
+version = "0.1.0"
+authors = ["davidedelpapa <davidedelpapa@yahoo.com>"]
+license = "MIT"
+description = "ML algorithms simplified, in Rust"
+readme = "README.md"
+homepage = "https://github.com/davidedelpapa/RustLearningMachine"
+repository = "https://github.com/davidedelpapa/RustLearningMachine"
+keywords = ["science"]
+categories = ["science"]
+edition = "2018"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[lib]
+name = "rustlearningmachine"
+path = "src/lib.rs"
+
+[dependencies]
+num = "*"
